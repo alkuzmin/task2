@@ -1,5 +1,6 @@
 import task2.t1.Hospital;
 import task2.t1.Unit;
+import task2.t1.UnitHospitalAdapter;
 
 import java.lang.reflect.*;
 import java.util.Arrays;
@@ -61,10 +62,11 @@ public class Main {
 //                            System.out.println(y.toString());
 //                        }));
 //
-    Hospital hospitalNum1 = new Hospital();
-    u1.setHealth(10f); // :(
-    //hospitalNum1.heal(u1); //!!!!!!!!!!!!
-
-
+        Hospital hospitalNum1 = new Hospital();
+        u1.setHealth(10f); // :(
+        //hospitalNum1.heal(u1); //!!!!!!!!!!!!
+        u1.doVoice();
+        hospitalNum1.heal(new UnitHospitalAdapter(u1));
+        u1.doVoice();
     }
 }

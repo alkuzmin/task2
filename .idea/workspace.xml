@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="two or three new annotations">
-      <change afterPath="$PROJECT_DIR$/src/task2/t1/Healable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/t1/Hospital.java" afterDir="false" />
+    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="new hospital cannot heal unit">
+      <change afterPath="$PROJECT_DIR$/src/task2/t1/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/t1/UnitHospitalAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709920609990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new hospital cannot heal unit">
+      <option name="closed" value="true" />
+      <created>1709921221437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709921221437</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +166,7 @@
     <MESSAGE value="just simple class" />
     <MESSAGE value="a little reflections" />
     <MESSAGE value="two or three new annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="two or three new annotations" />
+    <MESSAGE value="new hospital cannot heal unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new hospital cannot heal unit" />
   </component>
 </project>
