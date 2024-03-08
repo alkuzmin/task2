@@ -1,9 +1,6 @@
-import task2.t1.Hospital;
-import task2.t1.Unit;
-import task2.t1.UnitHospitalAdapter;
+import task2.t1.*;
 
 import java.lang.reflect.*;
-import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -68,5 +65,12 @@ public class Main {
         u1.doVoice();
         hospitalNum1.heal(new UnitHospitalAdapter(u1));
         u1.doVoice();
+
+        //================================decorators
+        Playable u2 = new Unit("Ork2", 6f);
+        u2 = new UnitDateDecorator(u2);
+        u2.doVoice();
+        UnitHealthAlertDecorator u3 = new UnitHealthAlertDecorator( new UnitHealthAlertDecorator(u2));
+        u3.doVoice();
     }
 }
