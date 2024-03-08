@@ -12,45 +12,52 @@ public class Main {
         Unit u1 = new Unit("Ork1", 12f);
         u1.doVoice();
 
-        //reflection exercises
+//        //reflection exercises
         Class cls = u1.getClass();
+//
+//        //list the fields
+//        for(Field f : cls.getFields())
+//        {
+//            System.out.println(f.getName());
+//        }
+//        System.out.println("===============");
+//        for(Field f : cls.getDeclaredFields())
+//        {
+//            System.out.println(f.getName());
+//        }
+//
+//        //count of spec. constructors
+//        long c = Arrays.stream(cls.getDeclaredConstructors()).
+//                filter(x->((Constructor)x).accessFlags().contains(AccessFlag.PRIVATE)).
+//                filter(x->((Constructor)x).getParameterCount()==0).
+//                count();
+//        System.out.println(c);
+//
+//        //========== open closed field
+//        System.out.println("============ open closed field");
+//        for(Field f : cls.getDeclaredFields())
+//        {
+//            System.out.println(f.getName());
+//        }
+//
+//        Field field = cls.getDeclaredField("health");
+//        field.setAccessible(true);
+//        field.set(u1, -400f);
+//        u1.doVoice();
+//        //==============
+//
+//        //==============method invoking
+//        System.out.println("\nmethod invoking\n");
+//        Method method = cls.getMethod("doVoice");
+//        System.out.println(method.getAnnotatedReturnType());
+//        method.invoke(u1, null);
 
-        //list the fields
-        for(Field f : cls.getFields())
-        {
-            System.out.println(f.getName());
-        }
-        System.out.println("===============");
-        for(Field f : cls.getDeclaredFields())
-        {
-            System.out.println(f.getName());
-        }
-
-        //count of spec. constructors
-        long c = Arrays.stream(cls.getDeclaredConstructors()).
-                filter(x->((Constructor)x).accessFlags().contains(AccessFlag.PRIVATE)).
-                filter(x->((Constructor)x).getParameterCount()==0).
-                count();
-        System.out.println(c);
-
-        //========== open closed field
-        System.out.println("============ open closed field");
-        for(Field f : cls.getDeclaredFields())
-        {
-            System.out.println(f.getName());
-        }
-
-        Field field = cls.getDeclaredField("health");
-        field.setAccessible(true);
-        field.set(u1, -400f);
-        u1.doVoice();
-        //==============
-
-        //==============method invoking
-        System.out.println("\nmethod invoking\n");
-        Method method = cls.getMethod("doVoice");
-        System.out.println(method.getAnnotatedReturnType());
-        method.invoke(u1, null);
+        //and annotations are accessible too
+        Arrays.stream(cls.getMethods()).
+                forEach(x-> Arrays.stream(x.getDeclaredAnnotations()).
+                        forEach(y->{
+                            System.out.println(y.toString());
+                        }));
 
     }
 }
