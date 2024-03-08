@@ -1,4 +1,6 @@
+import task2.t1.Hospital;
 import task2.t1.Unit;
+
 import java.lang.reflect.*;
 import java.util.Arrays;
 
@@ -53,11 +55,16 @@ public class Main {
 //        method.invoke(u1, null);
 
         //and annotations are accessible too
-        Arrays.stream(cls.getMethods()).
-                forEach(x-> Arrays.stream(x.getDeclaredAnnotations()).
-                        forEach(y->{
-                            System.out.println(y.toString());
-                        }));
+//        Arrays.stream(cls.getMethods()).
+//                forEach(x-> Arrays.stream(x.getDeclaredAnnotations()).
+//                        forEach(y->{
+//                            System.out.println(y.toString());
+//                        }));
+//
+    Hospital hospitalNum1 = new Hospital();
+    u1.setHealth(10f); // :(
+    //hospitalNum1.heal(u1); //!!!!!!!!!!!!
+
 
     }
 }

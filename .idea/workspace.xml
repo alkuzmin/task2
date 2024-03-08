@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="a little reflections">
-      <change afterPath="$PROJECT_DIR$/src/task2/t1/JustForFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/t1/Protocolable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task2/t1/Sensitive.java" afterDir="false" />
+    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="two or three new annotations">
+      <change afterPath="$PROJECT_DIR$/src/task2/t1/Healable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task2/t1/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -31,7 +32,9 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2dPDZ0xLT8cU18wiBMkrsy3tRCZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709919584318</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="two or three new annotations">
+      <option name="closed" value="true" />
+      <created>1709920609990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709920609990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +157,7 @@
     <MESSAGE value="empty with tests" />
     <MESSAGE value="just simple class" />
     <MESSAGE value="a little reflections" />
-    <option name="LAST_COMMIT_MESSAGE" value="a little reflections" />
+    <MESSAGE value="two or three new annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="two or three new annotations" />
   </component>
 </project>
