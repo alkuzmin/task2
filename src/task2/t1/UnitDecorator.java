@@ -8,6 +8,7 @@ public class UnitDecorator implements Playable{
     }
 
     @Override
+    @JustForFun
     public void doVoice() {
         baseUnit.doVoice();
     }

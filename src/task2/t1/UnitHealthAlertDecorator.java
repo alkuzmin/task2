@@ -6,10 +6,10 @@ public class UnitHealthAlertDecorator extends UnitDecorator {
     }
 
 
-
     @Override
+    @JustForFun
     public void doVoice() {
         super.doVoice();
-        System.out.println(((getHealth()<10)?" DANGER!!! ":" ")+ " \n");
+        System.out.println(((getHealth() < 10) ? " DANGER!!! " : " ") + " \n");
     }
 }
