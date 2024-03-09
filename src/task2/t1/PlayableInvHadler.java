@@ -18,14 +18,16 @@ public class PlayableInvHadler implements InvocationHandler
         //System.out.println("It works");
         Method m = obj.getClass().getMethod(method.getName(), method.getParameterTypes());
 
-        Annotation[] anns = m.getDeclaredAnnotations();
-        /*for (Annotation a: anns)
+        //Annotation[] anns = m.getDeclaredAnnotations();
+        Annotation[] anns = m.getAnnotationsByType(JustForFun.class);
+        for (Annotation a: anns)
         {
-            if (a.annotationType() == (JustForFun.class))
-                System.out.println("Ha ha ha ha ha ha ha ha ha");
-        }*/
-        if (Arrays.stream(anns).filter(x->((Annotation)x).annotationType().equals(JustForFun.class)).count()>0)
-        System.out.println("Ha ha ha ha ha ha ha ha ha");
+             System.out.println("Ha ha ha ha ha ha ha ha ha");
+        }
+//        if (Arrays.stream(anns).filter(x->((Annotation)x).annotationType().equals(JustForFun.class)).count()>0)
+//        System.out.println("Ha ha ha ha ha ha ha ha ha");
+
+
         return method.invoke(obj, args);
 
     }

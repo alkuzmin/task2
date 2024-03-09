@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="unit has very simple dynamic proxy">
-      <change afterPath="$PROJECT_DIR$/src/task2/t1/JustForFuns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/t1/JustForFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/t1/JustForFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/t1/PlayableInvHadler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/t1/PlayableInvHadler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/t1/UnitDateDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/t1/UnitDateDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/t1/UnitDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/t1/UnitDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/t1/UnitHealthAlertDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/t1/UnitHealthAlertDecorator.java" afterDir="false" />
-    </list>
+    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="unit has dynamic proxy with some behaivor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709966764010</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="unit has dynamic proxy with some behaivor">
+      <option name="closed" value="true" />
+      <created>1709969117175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709969117175</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +197,7 @@
     <MESSAGE value="new hospital can heal unit with adapter" />
     <MESSAGE value="unit has decorators" />
     <MESSAGE value="unit has very simple dynamic proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit has very simple dynamic proxy" />
+    <MESSAGE value="unit has dynamic proxy with some behaivor" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit has dynamic proxy with some behaivor" />
   </component>
 </project>
