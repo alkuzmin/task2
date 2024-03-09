@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="unit has dynamic proxy with some behaivor" />
+    <list default="true" id="db77afc1-fba3-4db1-bda4-7d5719cc3a46" name="Changes" comment="unit has dynamic proxy with some behaivor (+multiannotations)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MainTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +17,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="AnnotationType" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -39,6 +42,7 @@
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.testSout.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -62,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MainTest.testSout">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Task2" />
@@ -79,8 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.testSout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testSout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.testSout" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MainTest" />
       </list>
@@ -174,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709969117175</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="unit has dynamic proxy with some behaivor (+multiannotations)">
+      <option name="closed" value="true" />
+      <created>1709969580920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709969580920</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +221,7 @@
     <MESSAGE value="unit has decorators" />
     <MESSAGE value="unit has very simple dynamic proxy" />
     <MESSAGE value="unit has dynamic proxy with some behaivor" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit has dynamic proxy with some behaivor" />
+    <MESSAGE value="unit has dynamic proxy with some behaivor (+multiannotations)" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit has dynamic proxy with some behaivor (+multiannotations)" />
   </component>
 </project>
