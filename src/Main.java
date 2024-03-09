@@ -72,5 +72,13 @@ public class Main {
         u2.doVoice();
         UnitHealthAlertDecorator u3 = new UnitHealthAlertDecorator( new UnitHealthAlertDecorator(u2));
         u3.doVoice();
+
+
+        //=================================proxy
+        System.out.println("===================proxy");
+        Playable u4 = new Unit("proshka", 67f).getProxy();
+        u4.getHealth();
+        u4.doVoice();
+
     }
 }
