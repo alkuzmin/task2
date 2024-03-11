@@ -19,6 +19,7 @@ class MainTest {
         baos = new ByteArrayOutputStream();
         ps = new PrintStream(baos);
         System.setOut(ps);
+
     }
 
     @Test
