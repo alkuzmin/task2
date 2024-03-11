@@ -76,9 +76,12 @@ public class Main {
 
         //=================================proxy
         System.out.println("===================proxy");
-        Playable u4 = new Unit("proshka", 67f).getProxy();
-        u4.getHealth();
-        u4.doVoice();
+        Object pr;
+        pr =   new Unit("proshka", 67f).getProxy();
+        ((Playable)pr).getHealth();
+        ((Playable)pr).doVoice();
+        ((Healable)pr).setHealth(2f);
+        ((Playable) pr).doVoice();
 
     }
 }
